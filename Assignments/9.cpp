@@ -1,4 +1,4 @@
-// define three classes, read & display data using friend function
+// WAP to exchange data of two classes using friend function
 #include<iostream>
 using namespace std;
 class B;
@@ -8,7 +8,7 @@ class A
 	public:
 	void set_data()
 	{
-		cout<<"Enter class A data"<<endl;
+		cout<<"Enter class A data x&y: "<<endl;
 		cin>>x>>y;
 	}
 	friend void display(A,B);
@@ -21,7 +21,7 @@ class B
 	public:
 	void set_data()
 	{
-		cout<<"Enter class B data"<<endl;
+		cout<<"Enter class B data x&y: "<<endl;
 		cin>>x>>y;
 	}
 	friend void display(A,B);
