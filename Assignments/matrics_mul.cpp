@@ -5,7 +5,8 @@ int main()
 {
 	int i,j,k;
 	int r1, r2, c1, c2;
-	int **m1, **m2, **m3;
+	int **m1, **m2, **m3;    // taking thrre dubble pointer
+	
 	cout<<"Enter r1 & c1 for r1Xc1 matrics1"<<endl;   // row & col for m1
 	cin>>r1>>c1;
 	cout<<"Enter r2&c2 for c1Xc2 matrics2"<<endl;    // row & col for m2
