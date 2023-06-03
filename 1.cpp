@@ -1,3 +1,5 @@
+//WAP to take number of stiudent data using class and object store data into file and read that file
+
 #include<iostream>
 #include<fstream>
 using namespace std;
